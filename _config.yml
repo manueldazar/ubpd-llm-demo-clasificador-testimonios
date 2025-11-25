@@ -1,3 +1,37 @@
-theme: jekyll-theme-architect
-title: Demo Clasificador de Testimonios
-description: Demo site
+title: "UBPD LLM Testimonial Classifier"
+description: "Bilingual demo of an LLM-based testimonial document classifier for the UBPD using LLMs."
+theme: jekyll-theme-cayman
+
+lang: es
+locale: es_CO
+
+url: "https://manueldazar.github.io"
+baseurl: "/ubpd-llm-demo-clasificador-testimonios"
+
+github_username: manueldazar
+author:
+  name: "Manuel Daza Ramírez"
+  email: ""
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Architecture"
+    url: "/docs/architecture.html"
+  - title: "Ontology"
+    url: "/docs/ontology.html"
+  - title: "API"
+    url: "/docs/api.html"
+  - title: "Repository"
+    url: "https://github.com/manueldazar/ubpd-llm-demo-clasificador-testimonios"

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'es' }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <a href="{{ '/' | relative_url }}" class="logo-link">
+            <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="UBPD LLM Logo" class="logo-img">
+          </a>
+          <div class="site-title">{{ site.title }}</div>
+          <div class="site-subtitle">{{ site.description }}</div>
+        </div>
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/#english-version' | relative_url }}">English</a></li>
+            <li><a href="{{ '/#spanish-version' | relative_url }}">Español</a></li>
+            <li><a href="{{ '/docs/architecture.html' | relative_url }}">Architecture</a></li>
+            <li><a href="{{ '/docs/ontology.html' | relative_url }}">Ontology</a></li>
+            <li><a href="{{ '/docs/api.html' | relative_url }}">API</a></li>
+            <li><a href="https://github.com/manueldazar/ubpd-llm-demo-clasificador-testimonios">Repository</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="content">
+        <article class="content-inner">
+          {{ content }}
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
