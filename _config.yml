@@ -33,5 +33,7 @@ nav:
     url: "/docs/ontology.html"
   - title: "API"
     url: "/docs/api.html"
+  - title: "Tests"
+    url: "/docs/tests/index.html"
   - title: "Repository"
     url: "https://github.com/manueldazar/ubpd-llm-demo-clasificador-testimonios"
