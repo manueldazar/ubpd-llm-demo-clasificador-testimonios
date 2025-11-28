@@ -14,7 +14,7 @@ permalink: /
   <img src="https://img.shields.io/badge/License-MIT-green.svg">
 </p>
 
-*Navigation: [English](#english-version) • [Español](#spanish-version) • [Repository](https://github.com/manueldazar/ubpd-llm-demo-clasificador-testimonios)*
+*Navigation: [English](#english-version) • [Español](#spanish-version) • [Repository](https://github.com/manueldazar/ubpd-llm-testimonial-classifier)*
 
 ---
 
