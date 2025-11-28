@@ -61,7 +61,8 @@ territory:
 ```
 
 ## 3. Ontology Diagram (Mermaid)
-```mermaid
+
+<div class="mermaid">
 flowchart TD
     A[Ontology] --> B[Document Types]
     A --> C[Actors]
@@ -83,7 +84,9 @@ flowchart TD
 
     E --> E1[Region]
     E --> E2[Rurality]
-```
+</div>
+
+---
 
 ## 4. How the Ontology Is Used
 - Injected into system prompts
@@ -160,7 +163,8 @@ territorio:
 ```
 
 ## 3. Diagrama de Ontología (Mermaid)
-```mermaid
+
+<div class="mermaid">
 flowchart TD
     A[Ontología] --> B[Tipos de Documento]
     A --> C[Actores]
@@ -182,7 +186,9 @@ flowchart TD
 
     E --> E1[Región]
     E --> E2[Ruralidad]
-```
+</div>
+
+---
 
 ## 4. Uso de la Ontología
 - Inyectada en el system prompt
